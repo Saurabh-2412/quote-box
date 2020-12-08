@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 0) 0%,
+    rgba(204, 238, 255, 0.24443280730260852) 8%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 2.5rem;
+}
+.divider {
+  border-bottom: 8px solid gray;
+  border-radius: 5px;
+  margin: 10px 80px;
+  padding-top: 50px;
+}
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: gray;
+}
+button:hover {
+  margin: 5px;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 1.5rem;
+}
+button:active {
+  margin: 5px;
+  border-radius: 0px;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 1.5rem;
+}
+.qoute-day {
+  padding: 20px;
+  font: italic small-caps bold 20px/30px Georgia, serif;
+}
