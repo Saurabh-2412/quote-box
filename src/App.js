@@ -97,7 +97,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>QUOTE BOX</h1>
-      <h2>Start checking out my quotes to see some magic!</h2>
+      <h2>Start each day with a positive thought and a grateful heart.!</h2>
       <br />
       <br />
       <br />
@@ -120,7 +120,7 @@ export default function App() {
         <br />
         {quote.map((item) => {
           return (
-            <p key={item} style={{ padding: "0.5rem" }}>
+            <p key={item} style={{ padding: "0.5rem", fontSize: "larger" }}>
               {item}
             </p>
           );
@@ -134,7 +134,7 @@ export default function App() {
       <br />
       <br />
       <div className="qoute-day">
-        <p>
+        <p style={{ fontSize: "larger" }}>
           <span
             style={{
               backgroundColor: "gray",
