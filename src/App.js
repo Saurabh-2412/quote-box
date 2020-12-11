@@ -142,12 +142,22 @@ export default function App() {
               borderRadius: "5px"
             }}
           >
-            Quote of the day :
+            Success mantra
           </span>
           <br />
           <br />
-          &quot;Life is all about experience… you can’t hold onto
-          everything.&quot;
+          “Where there is righteousness in the heart, there is beauty in the
+          character.
+          <br /> When there is beauty in the character, there is harmony in the
+          home.
+          <br /> When there is harmony in the home, there is order in the
+          nation.
+          <br /> When there is order in the nation, there is peace in the
+          world.”
+          <br />
+          <span style={{ color: "#FFFFFF", float: "center" }}>
+            - A. P. J. Abdul Kalam.
+          </span>
         </p>
       </div>
     </div>
